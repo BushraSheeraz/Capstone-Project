@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 function NavBar() {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="light">
+            <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#d7d0d0'}}>
                 <Container >
                     <Navbar.Brand href="#home">
                         <img
