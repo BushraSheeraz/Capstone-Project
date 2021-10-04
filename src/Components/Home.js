@@ -3,7 +3,7 @@ import slider1 from '../Images/slider-img1.jpg';
 import slider from '../Images/slider-img.jpg';
 import slider2 from '../Images/slider-img2.jpg';
 import NavBar from './NavBar';
-
+import CircleWomen from './CircleWomen';
 
 function Home() {
     return (
@@ -46,6 +46,8 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+
+            <CircleWomen />
         </>
     )
 }
