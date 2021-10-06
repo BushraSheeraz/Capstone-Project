@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Women from '../Images/CircleWomen.PNG';
+
 function CircleWomen() {
     return (
         <>
