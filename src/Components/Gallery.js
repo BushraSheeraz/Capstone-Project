@@ -1,13 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import image1 from '../Images/Mentor Meetup.jpg'
+import image1 from '../Images/Mentor Meetup.jpg';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 function Gallery() {
     return (
         <>
             <CardGroup>
                 <Card>
-                    <Card.Img variant="top" src={} />
+                    <Card.Img variant="top" src={image1} />
                     <Card.Body>
                     <Button variant="dark">Read more</Button>
                     </Card.Body>
