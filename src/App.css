@@ -38,10 +38,13 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 40px;
+  padding: 80px 40px;
 }
 .gallery{
-  padding: 20px 30px;
+  padding: 50px 30px;
+  background-color: #ffc8ce;
+  display: flex;
+  justify-content: space-around;
 }
 .GalleryPageContext{
   background-color: #ffc8ce;

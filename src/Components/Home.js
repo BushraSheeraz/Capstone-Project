@@ -46,9 +46,8 @@ function Home() {
 
             <CircleWomen />
             <TechKaro />
-            <Sponsors />
-
             <Gallery />
+            <Sponsors />
         </>
     )
 }
