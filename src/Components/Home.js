@@ -5,6 +5,7 @@ import slider2 from '../Images/slider-img2.jpg';
 import NavBar from './NavBar';
 import CircleWomen from './CircleWomen';
 import TechKaro from './TechKaro';
+import Gallery from './Gallery';
 import Sponsors from './Sponsors';
 
 function Home() {
@@ -47,6 +48,7 @@ function Home() {
             <TechKaro />
             <Sponsors />
 
+            <Gallery />
         </>
     )
 }
