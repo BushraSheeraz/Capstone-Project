@@ -1,6 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import image1 from '../Images/Mentor Meetup.jpg';
+import image1 from '../Images/gallery3.jpg';
+import image2 from '../Images/gallery2.jpg';
+import image3 from '../Images/gallery11.jpg';
 import CardGroup from 'react-bootstrap/CardGroup';
 
 function Gallery() {
@@ -10,34 +12,24 @@ function Gallery() {
                 <Card>
                     <Card.Img variant="top" src={image1} />
                     <Card.Body>
+                    <Card.Title>Our Alumni Stories</Card.Title>
                     <Button variant="dark">Read more</Button>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                    </Card.Body>                                   
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={image2} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                        <Card.Title>
+                            Circle introduces She Loves Tech - Startup</Card.Title>
+                            <Button variant="dark">Read more</Button>
+                        </Card.Body>
+                   
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={image3} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
-                        </Card.Text>
+                        <Card.Title>Circle in Gilgit-Baltistan</Card.Title>
+                        <Button variant="dark">Read more</Button>
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted">Last updated 3 mins ago</small>
