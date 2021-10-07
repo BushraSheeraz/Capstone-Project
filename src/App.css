@@ -40,6 +40,9 @@ p{
   justify-content: center;
   padding: 50px 40px;
 }
+.gallery{
+  padding: 20px 30px;
+}
 .GalleryPageContext{
   background-color: #ffc8ce;
 }
