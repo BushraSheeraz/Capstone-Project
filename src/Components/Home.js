@@ -1,12 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
-import { Container } from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import slider1 from '../Images/registration.jpg';
-import slider from '../Images/slider-img.jpg';
 import slider2 from '../Images/slider-img2.jpg';
 import NavBar from './NavBar';
 import CircleWomen from './CircleWomen';
 import TechKaro from './TechKaro';
+import Sponsors from './Sponsors';
 
 function Home() {
     return (
@@ -46,6 +45,7 @@ function Home() {
 
             <CircleWomen />
             <TechKaro />
+            <Sponsors />
 
         </>
     )

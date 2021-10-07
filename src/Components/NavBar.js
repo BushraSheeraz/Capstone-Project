@@ -1,6 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import logo from '../Images/Logo.png';
+import logo from '../Images/tech karo.png';
 import Nav from 'react-bootstrap/Nav';
 
 
@@ -12,7 +12,7 @@ function NavBar() {
                     <Navbar.Brand href="#home">
                         <img
                             src={logo}
-                            max-width="130px"
+                            width= "60px"
                             className="d-inline-block align-top"
                             alt="Circle women logo"
                         />

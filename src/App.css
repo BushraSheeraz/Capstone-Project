@@ -17,13 +17,13 @@ p{
 }
 
 .techKaro{
-  background-color: #ffc8ce;
+  background-color: #88ba9254;
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 80px;
+  padding: 50px 80px;
 }
 
 .slider{
@@ -31,4 +31,12 @@ p{
   justify-content: center;
   align-items: center;
   /* background-color: cadetblue; */
+}
+
+.sponsor{
+  background-color: #eef5ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 40px;
 }
