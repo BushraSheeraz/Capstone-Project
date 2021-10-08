@@ -7,6 +7,7 @@ import CircleWomen from './CircleWomen';
 import TechKaro from './TechKaro';
 import Gallery from './Gallery';
 import Sponsors from './Sponsors';
+import Footer from './Footer';
 
 function Home() {
     return (
@@ -14,18 +15,17 @@ function Home() {
             <NavBar />
             <div className="slider" >
                 <Carousel style={{ width: '100%' }}>
-
                     <Carousel.Item>
-                        <div>
-                            <img
-                                className="d-block w-100"
-                                src={slider1}
-                                alt="First slide"
-                            />
-                        </div>
-                        <Carousel.Caption>
+                        <img
+                            className="d-block w-100"
+                            src={slider1}
+                            alt="First slide"
+                        />
+                        <Carousel.Caption className="overlay">
+                            <div>
                             <h3>Click here to register yourself</h3>
                             <Button variant="dark">Register</Button>
+                            </div>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -34,11 +34,11 @@ function Home() {
                             src={slider2}
                             alt="Third slide"
                         />
-
-                        <Carousel.Caption>
+                        <Carousel.Caption className="overlay">
+                            <div >
                             <h3>Third slide label</h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            
+                            </div>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
@@ -48,6 +48,7 @@ function Home() {
             <TechKaro />
             <Gallery />
             <Sponsors />
+            <Footer />
         </>
     )
 }

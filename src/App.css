@@ -11,9 +11,28 @@ h3{
 p{
   font-size: 20px;
 }
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0000007d;
+}
 .circleWomen{
   margin: 20px 0px;
-
+}
+.womenCard{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: none;
+}
+.womenImage{
+  width: 550px;
+  height: 400px;
 }
 
 .techKaro{
@@ -40,6 +59,9 @@ p{
   justify-content: center;
   padding: 80px 40px;
 }
+.sponsorImage{
+  width: 15rem;
+}
 .gallery{
   padding: 50px 30px;
   background-color: #ffc8ce;
@@ -48,4 +70,54 @@ p{
 }
 .GalleryPageContext{
   background-color: #ffc8ce;
+}
+.footer{
+  width: auto;
+  height: 50%;
+  display: flex;
+  padding: 40px 40px;
+  background-color: black;
+  color: white;
+}
+.footerLogo{
+  /* background-color: white; */
+}
+
+
+
+@media only screen and (max-width: 540px) {
+  .sponsor{
+    display: flex;
+    flex-direction: column;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .col{
+    margin-top: 20px;
+  }
+  .womenCard{
+    display: flex;
+    flex-direction: column;
+  }
+  /* .womenImage{
+    width: 100px;
+    height: 50px;
+  } */
+}
+
+@media only screen and (max-width: 1024px){
+  .col{
+    width: 50%;
+  }
+  .sponsorImage{
+    width: 150px;
+  }
+  .womenImage{
+    width: 300px;
+    height: 250px;
+  }
 }

@@ -13,12 +13,12 @@ function Sponsors() {
                     <h1>Our Sponsors</h1>
                 </div>
                 <Container >
-                    <Row style={{justifyContent:'space-evenly'}}>
-                        <Col xs={6} md={4} style={{background:'border-box #d8e8db', boxShadow:'5px 6px cadetblue'}}>
-                            <Image src={Logo1} rounded  style={{width:'300px'}}/>
+                    <Row className="row" style={{justifyContent:'space-evenly'}}>
+                        <Col xs={6} md={4} className="col" style={{background:'border-box #d8e8db', boxShadow:'5px 6px cadetblue'}}>
+                            <Image className="sponsorImage" src={Logo1} rounded  />
                         </Col>
-                        <Col xs={6} md={4} style={{background:'border-box #d8e8db', boxShadow:'5px 6px cadetblue'}}>
-                            <Image src={Logo2} rounded style={{width:'200px'}}/>
+                        <Col xs={6} md={4} className="col" style={{background:'border-box #d8e8db', boxShadow:'5px 6px cadetblue'}}>
+                            <Image className="sponsorImage" src={Logo2} rounded />
                         </Col>
                     </Row>
                 </Container>
