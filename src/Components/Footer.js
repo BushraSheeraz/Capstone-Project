@@ -2,12 +2,16 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import logo from '../Images/tech karo.png';
 import Table from 'react-bootstrap/Table';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     return (
         <>
             <div className="footer">
-                <Container className="footerLogo">
+                <div className="footerLogo">
                     <Navbar.Brand href="#home">
                         <img
                             src={logo}
@@ -16,26 +20,29 @@ function Footer() {
                             alt="Circle women logo"
                         />
                     </Navbar.Brand>
-                </Container>
-                <Table striped bordered hover>
+                </div>
+                <Table className="tableDiv">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Username</th>
+                            <td>About us</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                            <td>Registration</td>
                         </tr>
-                       
+                        <tr>
+                            <td>Gallery</td>
+                        </tr>
                     </tbody>
                 </Table>
+                <div className="socialMedia">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <FontAwesomeIcon icon={faFacebook} style={{ marginRight: '20px' }} />
+                        <FontAwesomeIcon icon={faTwitter} />
+                    </div>
+                </div>
             </div>
         </>
     )

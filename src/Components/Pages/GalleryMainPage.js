@@ -1,10 +1,10 @@
 import Card from 'react-bootstrap/Card';
-import image1 from '../Images/DM-Std1.jpg';
-import image2 from '../Images/DM-Std2.jpg';
-import image3 from '../Images/mentor1.jpg';
-import image4 from '../Images/impact2.jpg';
-import image5 from '../Images/DigM5.jpg';
-import image6 from '../Images/impact11.jpg';
+import image1 from '../../Images/DM-Std1.jpg';
+import image2 from '../../Images/DM-Std2.jpg';
+import image3 from '../../Images/mentor1.jpg';
+import image4 from '../../Images/impact2.jpg';
+import image5 from '../../Images/DigM5.jpg';
+import image6 from '../../Images/impact11.jpg';
 import CardGroup from 'react-bootstrap/CardGroup';
 import GalleryPageContext from './Gallerypagecontext'
 
