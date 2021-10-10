@@ -15,7 +15,7 @@ function NavBar() {
         <>
             <Navbar collapseOnSelect expand="lg" style={{ marginBottom: '20px', boxShadow: '12px 10px #f1eeee', backgroundColor: 'white' }}>
                 <Container >
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand as={Link} to="/home">
                         <img
                             src={logo}
                             width="60px"
