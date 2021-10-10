@@ -24,10 +24,10 @@ function NavBar() {
                 <Container>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link as={Link} to="/">Home</Nav.Link>
-                            <Nav.Link as={Link} to="/techKaroPage">About us</Nav.Link>
-                            <Nav.Link as={Link} to="/registration">Registration</Nav.Link>
-                            <Nav.Link as={Link} to="/galleryMainPage">Gallery</Nav.Link>
+                            <Nav.Link as={Link} to="./Home">Home</Nav.Link>
+                            <Nav.Link as={Link} to="./TechKaroPage">About us</Nav.Link>
+                            <Nav.Link as={Link} to="./Registration">Registration</Nav.Link>
+                            <Nav.Link as={Link} to="./GalleryMainPage">Gallery</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -2,10 +2,9 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Redirect
 } from "react-router-dom";
 import Home from "./Home";
-import NavBar from "./NavBar";
+// import NavBar from "./NavBar";
 import GalleryMainPage from "./Pages/GalleryMainPage";
 import Registration from "./Pages/Registration";
 import TechKaroPage from "./Pages/TechKaroPage";
@@ -27,13 +26,13 @@ function Main() {
                     <Route path="/">
                         <Home />
                     </Route>
-                    <Route exact path="/techKaroPage">
+                    <Route path="./TechKaroPage">
                         <TechKaroPage />
                     </Route>
-                    <Route exact path="/registration">
+                    <Route path="./Registration">
                         <Registration />
                     </Route>
-                    <Route exact path="/galleryMainPage">
+                    <Route path="./GalleryMainPage">
                         <GalleryMainPage />
                     </Route>
                 </Switch>

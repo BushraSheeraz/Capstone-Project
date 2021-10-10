@@ -100,6 +100,36 @@ p{
   margin: 50px 40px 0;
   padding: 20px 50px;
 }
+.techkaroPage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.techkaroBanner{
+  background-image: url("./Images/classes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.techkaroImage{
+  background-color: #0000006b;
+  color: white;
+}
+.techkaroContent{
+  background-color: burlywood;
+  color: black;
+  font-size: 30px;
+}
 
 
 

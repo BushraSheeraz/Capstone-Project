@@ -8,6 +8,7 @@ import TechKaro from './TechKaro';
 import Gallery from './Gallery';
 import Sponsors from './Sponsors';
 import Footer from './Footer';
+import TechKaroPage from './Pages/TechKaroPage';
 
 function Home() {
     return (
@@ -43,12 +44,13 @@ function Home() {
                     </Carousel.Item>
                 </Carousel>
             </div>
-
+            
             <CircleWomen />
             <TechKaro />
             <Gallery />
             <Sponsors />
             <Footer />
+            {/* <TechKaroPage /> */}
         </>
     )
 }
