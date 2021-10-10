@@ -94,6 +94,12 @@ p{
   flex-direction: column;
   font-size: 30px;
 }
+.formDiv{
+  background: rgb(254,218,220);
+  background: linear-gradient(0deg, rgba(254,218,220,1) 0%, rgba(216,232,219,1) 58%);
+  margin: 50px 40px 0;
+  padding: 20px 50px;
+}
 
 
 
