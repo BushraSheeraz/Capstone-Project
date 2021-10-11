@@ -20,9 +20,9 @@ function Main() {
                 </div>
                 <Switch>
                     <Route exact path="/">
-                        {<Redirect to="/home" />}
+                        {<Redirect to="/" />}
                     </Route>
-                    <Route path="/home">
+                    <Route path="/">
                         <Home />
                     </Route>
                     <Route path="/techkaropage">
