@@ -19,10 +19,10 @@ function Main() {
                     <NavBar />
                 </div>
                 <Switch>
+                    {/* <Route exact path="/">
+                        {<Redirect to="/" />}
+                    </Route> */}
                     <Route exact path="/">
-                        {<Redirect to="/home" />}
-                    </Route>
-                    <Route path="/home">
                         <Home />
                     </Route>
                     <Route path="/techkaropage">

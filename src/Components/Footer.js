@@ -2,7 +2,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../Images/tech karo.png';
 import Table from 'react-bootstrap/Table';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faInstagram } from '@fortawesome/free-brands-svg-icons' 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
@@ -36,9 +37,11 @@ function Footer() {
                 </Table>
                 <div className="socialMedia">
                     <h4>Contact Us</h4>
-                    <div>
-                        <FontAwesomeIcon icon={faFacebook} style={{ marginRight: '20px' }} />
+                    <div className="icons">
+                        <FontAwesomeIcon icon={faFacebook} />
                         <FontAwesomeIcon icon={faTwitter} />
+                        <FontAwesomeIcon icon={faInstagram} />
+                        
                     </div>
                 </div>
             </div>
